@@ -1,0 +1,87 @@
+# ====================
+# OS-specific files
+# ====================
+.DS_Store
+Thumbs.db
+
+# ====================
+# Editor configs
+# ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# ====================
+# Python
+# ====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.eggs/
+.env
+.venv/
+env/
+venv/
+dist/
+build/
+pip-wheel-metadata/
+.coverage
+.cache/
+*.log
+
+# ====================
+# C/C++
+# ====================
+*.o
+*.obj
+*.gch
+*.so
+*.a
+*.out
+*.exe
+*.dll
+*.dSYM/
+*.stackdump
+build/
+
+# ====================
+# Rust
+# ====================
+/target/
+Cargo.lock
+*.rlib
+*.rmeta
+*.d
+
+# ====================
+# Test / Coverage Tools
+# ====================
+htmlcov/
+pytest_cache/
+*.gcda
+*.gcno
+*.gcov
+
+# ====================
+# Git-related
+# ====================
+*.orig
+*.rej
+
+# ====================
+# Others
+# ====================
+*.class
+*.zip
+*.tar.gz
+*.7z
+*.bak
+*.tmp
+*.user
+*.~lock.*
