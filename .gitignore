@@ -85,3 +85,15 @@ pytest_cache/
 *.tmp
 *.user
 *.~lock.*
+
+# ====================
+# CSHARP
+# ====================
+**/bin/
+**/obj/
+**/*.user
+**/*.userprefs
+*.sln.docstates
+TestResults/
+*.coverage
+*.coveragexml
