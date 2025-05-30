@@ -6,11 +6,12 @@ using System.Diagnostics.Contracts;
 
 namespace stupid
 {
-    internal class Balls
+    class Balls
     {
         static void Main(string[] jesse)
         {
-            Console.WriteLine($"Balls Man, {jesse[0]}");
+            Console.WriteLine($"Balls Man, {jesse[0]}"); 
+            // pass and argument with -- Asher here for example
         }
     }
 }
